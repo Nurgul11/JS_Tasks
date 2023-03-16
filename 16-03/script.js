@@ -10,6 +10,7 @@ console.log(result);
 let hour = 2;
 let min = 10;
 let seconds = 30;
+console.log(hour+':' + min + ':' + seconds );
 console.log(`${hour} : ${min} : ${seconds}`);
 
 //3
