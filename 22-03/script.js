@@ -1,9 +1,9 @@
 //   1
 
 const x = 9;
-if(x == 7){
+if(x === 7){
     alert('Верно');
-}else{
+} else{
     alert('Неверно');    // неверно
 }
 
@@ -13,17 +13,17 @@ if(x == 7){
 
 const a = 5;
 const b = 8;             // b = 2
-if(a <= 1 ||  b >= 3){
+if(a <= 1  &&  b >= 3){
     alert(a + b);        // 13
-}else{
+} else{
     alert(a - b);        // 3
 }
 
 
 //  3
 
-let price = prompt('Столица Кыпгызстана?');
-if(price == "Бишкек"){
+let countries = prompt('Столица Кыпгызстана?');
+if(countries === "Бишкек"){
     alert('Верно');
 }else{
     alert('Незнаете');
@@ -34,13 +34,13 @@ if(price == "Бишкек"){
 const time = 5;
 if(time >= 0 && time <= 15){
     alert('Первую часть');        // Первую часть
-}else if(time >= 15 && time <= 30){
+} else if(time >= 15 && time <= 30){
     alert('Вторую часть');
-}else if(time >= 30 && time <= 45){
+} else if(time >= 30 && time <= 45){
     alert('Третью');
-}else if(time >= 45 && time <= 60){
+} else if(time >= 45 && time <= 59){
     alert('Четвертую');
-}else{
+} else{
     alert('Значение не попадает в даипозоне от 0 до 59');
 }
 
