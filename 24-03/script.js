@@ -1,7 +1,7 @@
 //  1
 const number = [1,2,5,6,88,5]
 let sum = 0;
-for(let i in number){
+for(let i = 0; i < number.length; i++){
     sum += number[i];
 }
 console.log(sum);
