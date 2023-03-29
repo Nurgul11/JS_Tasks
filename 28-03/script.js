@@ -1,7 +1,7 @@
 /* 1) На старте вы получаете массив. Необходимо написать функцию, которая будет возвращать массив удвоенных значений исходного массива.*/
 
 
-const num1 = [3, 5,8]
+const num1 = [3, 5,8];
 let double = function (num) {
    const number = [];
     for (let i = 0; i < num.length; i++) {
@@ -31,7 +31,7 @@ console.log(newMas(3, "a"));
 /*3) Напишите функцию, которая принимает 2 числа и возвращает 1, если первое число больше, чем второе; -1, если первое число меньше, чем второе, и 0, если числа равны.
    Попробуйте реализовать эту функцию не только с помощью if...else, но и с помощью тернарного оператора, и в виде стрелочной функции.*/
 
-function showNum(x, y){
+let showNum = (x, y) => {
    if(x > y) {
       return 1;
    } else if(x < y) {
@@ -46,9 +46,11 @@ console.log(showNum(6,6));   // 0
 
 
 // Тернарный
-const shownum = function(a, b) {
+const shownum = (a, b) => {
   return (a > b) ? 1 : (a < b) ? -1 : 0;
 }
 console.log(shownum(2,7));   // -1
 console.log(shownum(4,2));   // 1
 console.log(shownum(3,3));    // 0
+
+
